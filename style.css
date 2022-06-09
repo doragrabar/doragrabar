@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0e1e4;
+}  
+.container{
+	
+	background-color: #e3b7eb;
+	height: 600px;
+}
+.navigacija {
+	background-color: transparent;	
+	padding:30px 20px;
+	font-family: 'Righteous', cursive;
+	
+}
+.linkovi{
+	display: flex;
+	justify-content: center;
+	color: transparent;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+.linkovi a{
+	color: #2b2b2b;
+	text-decoration:  none;
+	margin-right: 15px;
+	
+}
+a:hover {
+  color: white;
+}
+.odlomak {
+	font-weight: bold;
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.odlomak h1{
+	font-family: 'Righteous', cursive;
+	color: #2b2b2b;
+	font-size: 35;
+}
+.odlomak h2{
+	color: #2b2b2b;
+	font-size: 20px;
+	font-family: 'Roboto', 900;
+	
+}
+.container2{
+	font-family: 'Righteous', cursive;
+	color: #2b2b2b;
+	padding-left: 15%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.naslov2 {
+	font-size: 35px;
+}
+.gumb {
+  background-color: #e3b7eb;
+  border: none;
+  color: #2b2b2b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  cursor: pointer;
+  font-family: 'Righteous', cursive;
+  
+}
+.flexkutija {
+  display: flex;
+  background-color: #e3b7eb;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+.flexkutija > div {
+  background-color: #e3b7eb;
+  margin: 15px;
+  padding: 15px;
+ 
+}
